@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+.card__body{
+  padding-left:5px !important;
+}
+
+.card__container {
+  font-family: "Poppins", Arial, sans-serif;
+  border: 0 !important;
+}
+
+.card__imageContainer{
+    position: relative;
+}
+
+.card__imageOverlay{
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%);
+  position: absolute;
+  top:0;
+  border-radius:10px
+}
+
+.card__caption{
+    position: absolute;
+    color:white;
+    bottom:0;
+    margin:10px;
+}
+
+.card__captionIcon{
+  margin-right:10px;
+}
+
+.card__duration {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #03A9F4;
+  font-weight: 500;
+}
+.card__img {
+  border-radius: 10px !important;
+}
+.card__img:hover {
+  transition: all 0.2s ease-in;
+  filter: grayscale(2);
+}
+
+.card__title {
+  text-align: left;
+  font-weight: bolder;
+}
+
+.card__price{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.card__star{
+  margin: 0;
+  left:0;
+  text-align: left;
+  color: rgb(255, 238, 0);
+}

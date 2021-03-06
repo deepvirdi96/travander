@@ -1,0 +1,89 @@
+.hero__section {
+  background-image: url("./images/heroBG/hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+  position: relative;
+  background-attachment: fixed;
+}
+.herotext__container {
+  width: 40%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%)
+}
+.herotext__p {
+  color: white;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+/* Package Cards */
+
+.packageCards__section{
+  margin:50px 0px;
+}
+
+.packageCard__div{
+  max-width: 300px !important;
+}
+
+/* About Us Section CSS */
+
+.aboutUs__section{
+  text-align: left;
+  background-color: #f8f9fa ;
+  color:rgb(20, 20, 20);
+  padding:100px 0px;
+}
+.aboutUs__section h3 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.rounded__button{
+  border-radius: 25px;
+}
+
+/* .aboutUs__imageSection{
+  width: 200px !important;
+  height: 300px !important;
+} */
+
+.aboutUs__imageSection img {
+  max-width: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
+.aboutImage1{
+  margin-top: -40px;
+}
+.aboutImage2{
+  margin-top: 40px;
+}
+
+.plainBar{
+  background: #0062cc;
+  text-align: left;
+  color:white;
+  padding:30px 0px;
+  margin-bottom: 10px;
+}
+
+.plainBar h4{
+  font-family: "Playfair Display", serif;
+}
+
+.rounded__button__white{
+  border-radius: 25px;
+  background: white;
+  color:#0062cc;
+  border: white;
+  padding:10px 20px;
+}

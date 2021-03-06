@@ -1,0 +1,23 @@
+/* navbar logo Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.brandLogo__img{
+    width: 50px;
+}
+
+.brandText__span{
+    font-size: 26px;
+    margin: 0px 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: white;
+}
+
+.signup__button{
+    margin:0px 10px;
+    border-radius: 20px !important;
+}
+
+.signin__button{
+    color:white !important;
+}

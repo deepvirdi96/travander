@@ -1,0 +1,37 @@
+.footer__container {
+  background-color: #0062cc !important;
+  color: white;
+  padding: 50px 0px;
+  text-align: left;
+}
+.footer__container h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.footer__container p {
+  font-size: 16px;
+}
+
+/* Social Icons Css */
+
+.socialIcons__container ul{
+    list-style-type: none;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.socialIcons__container li {
+    display: inline-block;
+    margin: 0px 5px;
+    background-color: white;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.socialIcons__container li a {
+    text-decoration: none;
+    text-align: center;
+}
