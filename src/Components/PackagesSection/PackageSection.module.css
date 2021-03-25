@@ -1,0 +1,13 @@
+.package__container {
+  width: 100%;
+}
+.package__container #tns1-ow {
+  width: 100% !important;
+}
+.nav__btn {
+  border: 1px solid #006cc2;
+  border-radius: 20px;
+  width: 40px;
+  color: white;
+  background: #0d7fdd;
+}

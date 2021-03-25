@@ -4,8 +4,9 @@ import styles from "./Footer.module.css";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer>
       <div className={styles.footer__container}>
@@ -31,7 +32,7 @@ const footer = () => {
                       </a>
                     </li>
                     <li>
-                    <a href="#" title="LinkedIn">
+                      <a href="#" title="LinkedIn">
                         <FontAwesomeIcon
                           icon={faLinkedin}
                           className={styles.socialIcons__item}
@@ -43,11 +44,25 @@ const footer = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="footerContentRight">
+              <div className={styles.footerContentRight}>
                 <Row>
-                  <div className="col-md-4">links</div>
-                  <div className="col-md-4">Company</div>
-                  <div className="col-md-4">Contact</div>
+                  <div className="col-md-4">
+                    <p>Links</p>
+                    <ul>
+                      <li>
+                        <Link to="/">Home</Link>
+                      </li>
+                      <li>
+                        <Link to="/">Sign in</Link>
+                      </li>
+                      <li>
+                        <Link to="/">Sign up</Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-md-4">
+                    <p>Contact</p>
+                  </div>
                 </Row>
               </div>
             </div>
@@ -58,4 +73,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

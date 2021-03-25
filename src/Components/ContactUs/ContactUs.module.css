@@ -1,0 +1,22 @@
+.contact_us {
+    margin:50px 0;
+}
+.contact_us input{
+    border:0;
+    margin-bottom:20px !important;
+    background-color: #f1f6f9;
+}
+.contact_us textarea{
+    border:0;
+    margin-bottom:20px !important;
+    background-color: #f1f6f9;
+}
+.contact_us h2{
+    margin-bottom:30px;
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+}
+.contact_us img{
+    width: 100%;
+    
+}
